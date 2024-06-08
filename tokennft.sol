@@ -5,7 +5,7 @@ interface IERC721 {
     function balanceOf(address owner) external view returns (uint256);
 }
 
-contract ExclusiveToken {
+contract BountyBot{
     string public name = "BountyBot";
     string public symbol = "BOB";
     uint8 public decimals = 18;
